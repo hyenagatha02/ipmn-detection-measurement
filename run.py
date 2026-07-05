@@ -479,7 +479,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser(description='Segmenatation - Organize files - Split pred mask - Image bias correction - Pncareas mask Thresholding - Duct mask dilation - Rmove Duct & Extract Cyst mask - Cyst size measurement')
     parser.add_argument("-d", "--cuda_visible_device", type=str, default=None, help='GPU device number')  # default='0', 
     # parser.add_argument("-i", "--nnunet_input_path", type=str, default="model/dataset/inputImgs/nifti", help="Root directory for nnUnet segmentation Inference")
-    # parser.add_argument("-i", "--nnunet_input_path", type=str, default=r"model\dataset\inputImgs_260108\dicom", help="Root directory for nnUnet segmentation Inference")
+    # parser.add_argument("-i", "--nnunet_input_path", type=str, default=r"model\dataset\inputImgs\dicom", help="Root directory for nnUnet segmentation Inference")
     parser.add_argument("-i", "--nnunet_input_path", type=str, default=str(DATASET_DIR / "inputImgs" / "dicom"), help="Root directory for nnU-Net segmentation inference")
 
     args = parser.parse_args()
