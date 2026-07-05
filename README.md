@@ -132,6 +132,18 @@ model/dataset/outputImgs/
 
 ---
 
+# Model weights
+
+The trained nnU-Net model weights are **not included** in this repository.
+
+The trained model weights are available from the corresponding author upon reasonable request.
+
+Before running inference, please place the trained checkpoint files under
+
+model/nnUnet_results/
+
+---
+
 # Notes
 
 This repository includes a customized version of **nnU-Net v2** located in
