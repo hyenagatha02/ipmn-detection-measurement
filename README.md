@@ -35,6 +35,8 @@ ipmn-detection-measurement/
 │   ├── nnUnet_preprocessed/
 │   └── nnUnet_results/         # Place trained nnU-Net model weights here
 │
+├── output/                     # Final analysis results (generated automatically)
+│
 ├── run.py
 ├── segmentation.py
 ├── bias_correction.py

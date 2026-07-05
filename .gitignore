@@ -36,10 +36,9 @@ model/dataset/inputImgs/nifti/*
 model/dataset/outputImgs/*
 output/*
 
-# Keep folder structure
+# Keep input folder structure
 !model/dataset/inputImgs/dicom/.gitkeep
 !model/dataset/inputImgs/nifti/.gitkeep
-!model/dataset/outputImgs/.gitkeep
 
 # =========================
 # Python caches
