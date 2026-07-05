@@ -36,14 +36,15 @@ def nnunet_inference(input_path, output_path,
     |ㅡ dataset
         |ㅡ inputImgs
         |   |ㅡ dicom
-        |   |   |ㅡ 17286516
-        |   |   |   |ㅡ 1728651600000000.dcm
+        |   |   |ㅡ case001
+        |   |   |   |ㅡ case00100000000.dcm
         |   |   |   |ㅡ ...
-        |   |   |ㅡ 17368021
-        |   |   |ㅡ ...
+        |   |   |ㅡ case002
+        |   |   |   |ㅡ case00200000000.dcm
+        |   |   |   |ㅡ ...
         |   |ㅡ nifti
-        |   |   |ㅡ 17286516_0000.nii.gz
-        |   |   |ㅡ 17368021_0000.nii.gz
+        |   |   |ㅡ case001_0000.nii.gz
+        |   |   |ㅡ case002_0000.nii.gz
         |   |   |ㅡ ...
         |ㅡ outputImgs
             |ㅡ ...

@@ -321,7 +321,7 @@ def run_process(nnunet_input_path, cuda_visible_device=None):
             print(f"\n\nNot a directory : {fpath} >> pass")
             continue
         # check_files(fpath)
-        # assert len(os.listdir(fpath)) == 2  # ['10661666_0000.nii.gz', '10661666_pred.nii.gz']
+        # assert len(os.listdir(fpath)) == 2  # ['case001_0000.nii.gz', 'case001_pred.nii.gz']
 
         print("\n\n\033[1m ## Check input files ##\033[0m")
         fid = os.path.basename(fpath)

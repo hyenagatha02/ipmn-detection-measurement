@@ -149,7 +149,7 @@ def change_dicom_to_nifti(dicom_path, nifti_path):
             continue
         assert len(os.listdir(fpath)) == len(files)
 
-        fid = os.path.basename(fpath)    # model\dataset\inputImgs\dicom\62338277
+        fid = os.path.basename(fpath)    # model\dataset\inputImgs\dicom\case001
 
         # Check empty dicom folder
         if len(files)==0:
@@ -185,7 +185,7 @@ def change_dicom_to_nifti(dicom_path, nifti_path):
         print('\033[1m>> (%d dcm files) %s\033[0m' %(len(os.listdir(fpath)), fpath))
 
         # convert dicom to nifti
-        save_fpath = os.path.join(nifti_path, fid)  # model\dataset\inputImgs\nifti\62338277
+        save_fpath = os.path.join(nifti_path, fid)  # model\dataset\inputImgs\nifti\case001
         # assert save_fpath == fpath.replace('dicom', 'nifti')
         if not os.path.exists(save_fpath):
             os.makedirs(save_fpath, exist_ok=True)
@@ -200,7 +200,7 @@ def change_dicom_to_nifti(dicom_path, nifti_path):
             save_fname = os.listdir(save_fpath)[0]
             nii_created = os.path.join(save_fpath, save_fname)
             nii_moved = os.path.join(nifti_path, f"{fid}.nii.gz")
-            print('> rename : %s -> \033[36m%s\033[0m' %(nii_created, nii_moved))  # nifti\62338277\401_cor_t2_ssh_fs.nii.gz -> nifti\62338277.nii.gz
+            print('> rename : %s -> \033[36m%s\033[0m' %(nii_created, nii_moved))  # nifti\case001\401_cor_t2_ssh_fs.nii.gz -> nifti\case001.nii.gz
             shutil.move(nii_created, nii_moved)
         else:
             print(f"\033[1;31m! Multiple nifti files created {(os.listdir(save_fpath))} !\033[0m")
@@ -212,7 +212,7 @@ def change_dicom_to_nifti(dicom_path, nifti_path):
             print(niis)
             for nii in niis:
                 nii_created, nii_moved = nii
-                print('> rename : %s -> \033[36m%s\033[0m' %(nii_created, nii_moved))  # nifti\62338277\401_cor_t2_ssh_fs.nii.gz -> nifti\62338277.nii.gz
+                print('> rename : %s -> \033[36m%s\033[0m' %(nii_created, nii_moved))  # nifti\case001\401_cor_t2_ssh_fs.nii.gz -> nifti\case001.nii.gz
                 shutil.move(nii_created, nii_moved)
                 multiple_niftis.append(fid)
         assert len(os.listdir(save_fpath)) == 0

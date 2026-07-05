@@ -566,9 +566,9 @@ int main(int argc, char* argv[]) {
     
 
     // std::string base_filename = removeFileExtension(CSVFile);
-    // std::cout << "Base filename for CSV files: " << base_filename << std::endl;  // C:\Users\MI2RL\Desktop\01_duct_segmentation\cyst_examples_with_merged\_temp_test_2503\17286516\mask_statistics\17286516_t2_pancreas_histogram
+    // std::cout << "Base filename for CSV files: " << base_filename << std::endl;
     std::string base_filepath = getParentDirectory(CSVFile);
-    std::cout << "\n\033[1m>> Base filepath for statistics files: " << base_filepath << "\033[0m" << std::endl;  // output/37581291/mask_statistics
+    std::cout << "\n\033[1m>> Base filepath for statistics files: " << base_filepath << "\033[0m" << std::endl;  // output/case001/mask_statistics
 
     // Iterate through all possible CSV files for fitted parameters
     std::vector<std::string> csv_variants = {
