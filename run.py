@@ -166,14 +166,14 @@ def run_process(nnunet_input_path, cuda_visible_device=None):
     # image_path, mask_path = nnunet_inference(nnunet_input_path, 
     #                                          nnunet_output_path, 
     #                                          device, 
-    #                                          root_path = r'E:\MI2RL\01_duct_seg_nnunet\codes\ALL_AT_ONCE\model',
-    #                                          venv_path = r'E:\MI2RL\01_duct_seg_nnunet\codes\ALL_AT_ONCE\venv_01_duct'
+    #                                          root_path = r'.\model',
+    #                                          venv_path = r'.\venv'
     #                                          )
     
     nnunet_input_path = Path(nnunet_input_path)
 
     # e.g. model/dataset/inputImgs/dicom -> dataset = "inputImgs"
-    # e.g. model/dataset/inputImgs_260108/dicom -> dataset = "260108"
+    # e.g. model/dataset/inputImgs_example/dicom -> dataset = "example"
     dataset_dir = nnunet_input_path.parent.name
     if dataset_dir.startswith("inputImgs_"):
         dataset = dataset_dir.replace("inputImgs_", "")
