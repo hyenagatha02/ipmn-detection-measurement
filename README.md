@@ -1,2 +1,179 @@
-# ipmn-detection-measurement
-Official implementation of a deep learning–based pipeline for automated IPMN detection and size measurement on MRI.
+# IPMN Detection and Measurement on MRI
+
+This repository provides the implementation of a fully automated pipeline for the detection and measurement of intraductal papillary mucinous neoplasms (IPMNs) on magnetic resonance imaging (MRI).
+
+The pipeline consists of three sequential steps:
+
+1. **Multiclass segmentation**
+   - nnU-Net v2–based segmentation of the pancreas, bile duct, and main pancreatic duct.
+
+2. **Cyst extraction**
+   - N4 bias field correction
+   - Intensity-based cyst extraction
+
+3. **Cyst size measurement**
+   - Connected component analysis
+   - Morphological post-processing
+   - Largest cyst size measurement
+
+---
+
+# Repository structure
+
+```
+ipmn-detection-measurement/
+│
+├── model/
+│   ├── dataset/
+│   │   ├── inputImgs/
+│   │   └── outputImgs/
+│   ├── nnUNet-master/          # Customized nnU-Net v2
+│   ├── nnUnet_raw/
+│   ├── nnUnet_preprocessed/
+│   └── nnUnet_results/
+│
+├── run.py
+├── segmentation.py
+├── bias_correction.py
+├── histogram_thresh.py
+├── cyst_size_measure.py
+├── utils.py
+│
+├── HistogramAnalysis_final_2503_no_fit.cxx
+├── CystAnalysis_2503_no_fit.sh
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# Installation
+
+Clone the repository.
+
+```bash
+git clone https://github.com/hyenagatha02/ipmn-detection-measurement.git
+cd ipmn-detection-measurement
+```
+
+Create a conda environment.
+
+```bash
+conda create -n nnunetv2 python=3.10
+conda activate nnunetv2
+```
+
+Install PyTorch.
+
+```bash
+pip install torch torchvision torchaudio
+```
+
+Install the remaining Python packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+Install the customized nnU-Net package.
+
+```bash
+pip install -e model/nnUNet-master
+```
+
+Compile the histogram analysis executable.
+
+```bash
+g++ HistogramAnalysis_final_2503_no_fit.cxx -o HistogramAnalysis_final_2503_no_fit
+chmod +x HistogramAnalysis_final_2503_no_fit
+```
+
+---
+
+# Verify installation
+
+Verify that nnU-Net has been installed successfully.
+
+```bash
+python -c "import nnunetv2"
+nnUNetv2_predict -h
+```
+
+If the nnU-Net help message is displayed, the installation has completed successfully.
+
+---
+
+# Running the pipeline
+
+Place the input DICOM series under
+
+```
+model/dataset/inputImgs/dicom/
+```
+
+Run the complete pipeline:
+
+```bash
+python run.py
+```
+
+or specify a custom input directory:
+
+```bash
+python run.py -i <input_directory>
+```
+
+The results will be generated under
+
+```
+model/dataset/outputImgs/
+```
+
+---
+
+# Notes
+
+This repository includes a customized version of **nnU-Net v2** located in
+
+```
+model/nnUNet-master
+```
+
+Compared with the official implementation, only the preprocessing and inference pipeline were modified to support the proposed workflow, while the core nnU-Net architecture, network design, and training framework remain unchanged.
+
+The customized files are:
+
+- `nnunetv2/inference/data_iterators.py`
+- `nnunetv2/inference/predict_from_raw_data.py`
+- `nnunetv2/preprocessing/preprocessors/default_preprocessor.py`
+
+---
+
+# Related work
+
+**Journal manuscript**
+
+*Deep learning-based fully automated detection and measurement of intraductal papillary mucinous neoplasms on magnetic resonance imaging* (under review)
+
+**Conference presentation**
+
+RSNA 2025 Annual Meeting (Oral Presentation)
+
+---
+
+# Citation
+
+If you use this repository, please cite:
+
+> Deep learning-based fully automated detection and measurement of intraductal papillary mucinous neoplasms on magnetic resonance imaging
+
+(The citation will be updated after publication.)
+
+---
+
+# License
+
+This repository is released for academic research purposes.
+
+Please cite the associated publication if you use this code in your research.

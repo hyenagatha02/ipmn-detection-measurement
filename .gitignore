@@ -1,0 +1,47 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Example data (do not upload patient data)
+# =========================
+model/dataset/inputImgs/dicom/*
+model/dataset/inputImgs/nifti/*
+model/dataset/outputImgs/*
+
+# Keep folder structure
+!model/dataset/inputImgs/dicom/.gitkeep
+!model/dataset/inputImgs/nifti/.gitkeep
+!model/dataset/outputImgs/.gitkeep
+
+# =========================
+# Python caches
+# =========================
+.pytest_cache/
+.mypy_cache/

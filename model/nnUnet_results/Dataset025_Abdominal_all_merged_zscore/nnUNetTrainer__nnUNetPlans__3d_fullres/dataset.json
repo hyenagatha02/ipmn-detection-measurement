@@ -1,0 +1,19 @@
+{
+    "channel_names": {
+        "0": "T2"
+    },
+    "labels": {
+        "background": 0,
+        "bile_duct": 1,
+        "pancreatic_duct": 2,
+        "pancreas": 3,
+        "bile_in_pancreas": 4
+    },
+    "numTraining": 345,
+    "file_ending": ".nii.gz",
+    "name": "Dataset025_Abdominal_all_merged_zscore",
+    "reference": "nnUnet_ver2",
+    "release": "25/01/23",
+    "licence": "Apache License, Version 2.0",
+    "description": "all_segmentation"
+}

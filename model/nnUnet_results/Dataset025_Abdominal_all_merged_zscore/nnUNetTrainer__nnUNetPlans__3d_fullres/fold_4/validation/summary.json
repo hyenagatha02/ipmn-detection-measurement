@@ -1,0 +1,3230 @@
+{
+    "foreground_mean": {
+        "Dice": 0.7915246464002876,
+        "FN": 1310.018115942029,
+        "FP": 1028.8695652173913,
+        "IoU": 0.6846900162921199,
+        "TN": 6144313.905797102,
+        "TP": 8982.221014492754,
+        "n_pred": 10011.090579710146,
+        "n_ref": 10292.239130434782
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.8185971504295396,
+            "FN": 200.7391304347826,
+            "FP": 106.2463768115942,
+            "IoU": 0.7160001599377426,
+            "TN": 6154561.521739131,
+            "TP": 766.5072463768116,
+            "n_pred": 872.7536231884058,
+            "n_ref": 967.2463768115942
+        },
+        "2": {
+            "Dice": 0.6842655467764627,
+            "FN": 518.9565217391304,
+            "FP": 68.1159420289855,
+            "IoU": 0.5458599454228571,
+            "TN": 6154380.463768116,
+            "TP": 667.4782608695652,
+            "n_pred": 735.5942028985507,
+            "n_ref": 1186.4347826086957
+        },
+        "3": {
+            "Dice": 0.8880744652082563,
+            "FN": 4433.869565217391,
+            "FP": 3894.5942028985505,
+            "IoU": 0.8035359595695629,
+            "TN": 6113183.536231884,
+            "TP": 34123.014492753624,
+            "n_pred": 38017.608695652176,
+            "n_ref": 38556.884057971016
+        },
+        "4": {
+            "Dice": 0.7751614231868921,
+            "FN": 86.5072463768116,
+            "FP": 46.52173913043478,
+            "IoU": 0.6733640002383167,
+            "TN": 6155130.101449275,
+            "TP": 371.8840579710145,
+            "n_pred": 418.40579710144925,
+            "n_ref": 458.39130434782606
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9584415584415584,
+                    "FN": 22,
+                    "FP": 10,
+                    "IoU": 0.9201995012468828,
+                    "TN": 2293359,
+                    "TP": 369,
+                    "n_pred": 379,
+                    "n_ref": 391
+                },
+                "2": {
+                    "Dice": 0.9430604982206405,
+                    "FN": 12,
+                    "FP": 20,
+                    "IoU": 0.8922558922558923,
+                    "TN": 2293463,
+                    "TP": 265,
+                    "n_pred": 285,
+                    "n_ref": 277
+                },
+                "3": {
+                    "Dice": 0.8897607242940289,
+                    "FN": 1010,
+                    "FP": 1547,
+                    "IoU": 0.8014134824479652,
+                    "TN": 2280884,
+                    "TP": 10319,
+                    "n_pred": 11866,
+                    "n_ref": 11329
+                },
+                "4": {
+                    "Dice": 0.9457579972183588,
+                    "FN": 13,
+                    "FP": 26,
+                    "IoU": 0.8970976253298153,
+                    "TN": 2293381,
+                    "TP": 340,
+                    "n_pred": 366,
+                    "n_ref": 353
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/10661666.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/10661666.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5350500715307582,
+                    "FN": 64,
+                    "FP": 261,
+                    "IoU": 0.365234375,
+                    "TN": 10485248,
+                    "TP": 187,
+                    "n_pred": 448,
+                    "n_ref": 251
+                },
+                "2": {
+                    "Dice": 0.6239707227813358,
+                    "FN": 773,
+                    "FP": 49,
+                    "IoU": 0.45345744680851063,
+                    "TN": 10484256,
+                    "TP": 682,
+                    "n_pred": 731,
+                    "n_ref": 1455
+                },
+                "3": {
+                    "Dice": 0.6971324846076483,
+                    "FN": 13300,
+                    "FP": 11394,
+                    "IoU": 0.5350754979854653,
+                    "TN": 10432646,
+                    "TP": 28420,
+                    "n_pred": 39814,
+                    "n_ref": 41720
+                },
+                "4": {
+                    "Dice": 0.6033898305084746,
+                    "FN": 117,
+                    "FP": 0,
+                    "IoU": 0.4320388349514563,
+                    "TN": 10485554,
+                    "TP": 89,
+                    "n_pred": 89,
+                    "n_ref": 206
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/11898430.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/11898430.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9212168486739469,
+                    "FN": 42,
+                    "FP": 160,
+                    "IoU": 0.853940708604483,
+                    "TN": 10484377,
+                    "TP": 1181,
+                    "n_pred": 1341,
+                    "n_ref": 1223
+                },
+                "2": {
+                    "Dice": 0.5642594859241126,
+                    "FN": 520,
+                    "FP": 192,
+                    "IoU": 0.39300937766410915,
+                    "TN": 10484587,
+                    "TP": 461,
+                    "n_pred": 653,
+                    "n_ref": 981
+                },
+                "3": {
+                    "Dice": 0.8046540000358828,
+                    "FN": 14678,
+                    "FP": 7098,
+                    "IoU": 0.673155722326454,
+                    "TN": 10419135,
+                    "TP": 44849,
+                    "n_pred": 51947,
+                    "n_ref": 59527
+                },
+                "4": {
+                    "Dice": 0.8882318154937907,
+                    "FN": 136,
+                    "FP": 53,
+                    "IoU": 0.798936170212766,
+                    "TN": 10484820,
+                    "TP": 751,
+                    "n_pred": 804,
+                    "n_ref": 887
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/13044222.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/13044222.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6163315551908084,
+                    "FN": 503,
+                    "FP": 432,
+                    "IoU": 0.4454329774614472,
+                    "TN": 11794794,
+                    "TP": 751,
+                    "n_pred": 1183,
+                    "n_ref": 1254
+                },
+                "2": {
+                    "Dice": 0.48977272727272725,
+                    "FN": 879,
+                    "FP": 19,
+                    "IoU": 0.32430398796087284,
+                    "TN": 11795151,
+                    "TP": 431,
+                    "n_pred": 450,
+                    "n_ref": 1310
+                },
+                "3": {
+                    "Dice": 0.8800035485036087,
+                    "FN": 12044,
+                    "FP": 6893,
+                    "IoU": 0.7857199434229137,
+                    "TN": 11708105,
+                    "TP": 69438,
+                    "n_pred": 76331,
+                    "n_ref": 81482
+                },
+                "4": {
+                    "Dice": 0.8427787934186471,
+                    "FN": 200,
+                    "FP": 144,
+                    "IoU": 0.7282780410742496,
+                    "TN": 11795214,
+                    "TP": 922,
+                    "n_pred": 1066,
+                    "n_ref": 1122
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/17197825.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/17197825.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8311367380560132,
+                    "FN": 133,
+                    "FP": 277,
+                    "IoU": 0.7110641296687809,
+                    "TN": 11795061,
+                    "TP": 1009,
+                    "n_pred": 1286,
+                    "n_ref": 1142
+                },
+                "2": {
+                    "Dice": 0.8063511830635118,
+                    "FN": 520,
+                    "FP": 102,
+                    "IoU": 0.6755346896191967,
+                    "TN": 11794563,
+                    "TP": 1295,
+                    "n_pred": 1397,
+                    "n_ref": 1815
+                },
+                "3": {
+                    "Dice": 0.939643825720705,
+                    "FN": 4413,
+                    "FP": 5446,
+                    "IoU": 0.8861586781058393,
+                    "TN": 11709877,
+                    "TP": 76744,
+                    "n_pred": 82190,
+                    "n_ref": 81157
+                },
+                "4": {
+                    "Dice": 0.7950310559006211,
+                    "FN": 68,
+                    "FP": 97,
+                    "IoU": 0.6597938144329897,
+                    "TN": 11795995,
+                    "TP": 320,
+                    "n_pred": 417,
+                    "n_ref": 388
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/17662932.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/17662932.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9030710172744721,
+                    "FN": 38,
+                    "FP": 164,
+                    "IoU": 0.8232720909886264,
+                    "TN": 10484617,
+                    "TP": 941,
+                    "n_pred": 1105,
+                    "n_ref": 979
+                },
+                "2": {
+                    "Dice": 0.7459677419354839,
+                    "FN": 242,
+                    "FP": 10,
+                    "IoU": 0.594855305466238,
+                    "TN": 10485138,
+                    "TP": 370,
+                    "n_pred": 380,
+                    "n_ref": 612
+                },
+                "3": {
+                    "Dice": 0.9627189699056745,
+                    "FN": 2787,
+                    "FP": 2691,
+                    "IoU": 0.9281177829099307,
+                    "TN": 10409552,
+                    "TP": 70730,
+                    "n_pred": 73421,
+                    "n_ref": 73517
+                },
+                "4": {
+                    "Dice": 0.9227906976744186,
+                    "FN": 47,
+                    "FP": 36,
+                    "IoU": 0.8566493955094991,
+                    "TN": 10485181,
+                    "TP": 496,
+                    "n_pred": 532,
+                    "n_ref": 543
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/19374503.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/19374503.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8524590163934426,
+                    "FN": 2,
+                    "FP": 16,
+                    "IoU": 0.7428571428571429,
+                    "TN": 1834938,
+                    "TP": 52,
+                    "n_pred": 68,
+                    "n_ref": 54
+                },
+                "2": {
+                    "Dice": 0.5652173913043478,
+                    "FN": 36,
+                    "FP": 44,
+                    "IoU": 0.3939393939393939,
+                    "TN": 1834876,
+                    "TP": 52,
+                    "n_pred": 96,
+                    "n_ref": 88
+                },
+                "3": {
+                    "Dice": 0.7614978973366264,
+                    "FN": 2352,
+                    "FP": 1221,
+                    "IoU": 0.614853939851245,
+                    "TN": 1825731,
+                    "TP": 5704,
+                    "n_pred": 6925,
+                    "n_ref": 8056
+                },
+                "4": {
+                    "Dice": 0.8518518518518519,
+                    "FN": 29,
+                    "FP": 3,
+                    "IoU": 0.7419354838709677,
+                    "TN": 1834884,
+                    "TP": 92,
+                    "n_pred": 95,
+                    "n_ref": 121
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/20110259.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/20110259.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9383561643835616,
+                    "FN": 10,
+                    "FP": 8,
+                    "IoU": 0.8838709677419355,
+                    "TN": 2621285,
+                    "TP": 137,
+                    "n_pred": 145,
+                    "n_ref": 147
+                },
+                "2": {
+                    "Dice": 0.7659574468085106,
+                    "FN": 38,
+                    "FP": 17,
+                    "IoU": 0.6206896551724138,
+                    "TN": 2621295,
+                    "TP": 90,
+                    "n_pred": 107,
+                    "n_ref": 128
+                },
+                "3": {
+                    "Dice": 0.9547137322427895,
+                    "FN": 495,
+                    "FP": 557,
+                    "IoU": 0.9133514537517503,
+                    "TN": 2609299,
+                    "TP": 11089,
+                    "n_pred": 11646,
+                    "n_ref": 11584
+                },
+                "4": {
+                    "Dice": 0.9238329238329238,
+                    "FN": 30,
+                    "FP": 1,
+                    "IoU": 0.8584474885844748,
+                    "TN": 2621221,
+                    "TP": 188,
+                    "n_pred": 189,
+                    "n_ref": 218
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/21720921.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/21720921.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7780678851174935,
+                    "FN": 66,
+                    "FP": 19,
+                    "IoU": 0.6367521367521367,
+                    "TN": 2096918,
+                    "TP": 149,
+                    "n_pred": 168,
+                    "n_ref": 215
+                },
+                "2": {
+                    "Dice": 0.8074074074074075,
+                    "FN": 18,
+                    "FP": 34,
+                    "IoU": 0.6770186335403726,
+                    "TN": 2096991,
+                    "TP": 109,
+                    "n_pred": 143,
+                    "n_ref": 127
+                },
+                "3": {
+                    "Dice": 0.793041975041867,
+                    "FN": 2930,
+                    "FP": 901,
+                    "IoU": 0.6570584549279385,
+                    "TN": 2085981,
+                    "TP": 7340,
+                    "n_pred": 8241,
+                    "n_ref": 10270
+                },
+                "4": {
+                    "Dice": 0.7427055702917772,
+                    "FN": 29,
+                    "FP": 68,
+                    "IoU": 0.5907172995780591,
+                    "TN": 2096915,
+                    "TP": 140,
+                    "n_pred": 208,
+                    "n_ref": 169
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/28635947.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/28635947.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8183632734530938,
+                    "FN": 24,
+                    "FP": 67,
+                    "IoU": 0.6925675675675675,
+                    "TN": 2490072,
+                    "TP": 205,
+                    "n_pred": 272,
+                    "n_ref": 229
+                },
+                "2": {
+                    "Dice": 0.850310856049737,
+                    "FN": 149,
+                    "FP": 164,
+                    "IoU": 0.7396006655574043,
+                    "TN": 2489166,
+                    "TP": 889,
+                    "n_pred": 1053,
+                    "n_ref": 1038
+                },
+                "3": {
+                    "Dice": 0.8640383198231393,
+                    "FN": 1663,
+                    "FP": 2027,
+                    "IoU": 0.7606227700291923,
+                    "TN": 2474953,
+                    "TP": 11725,
+                    "n_pred": 13752,
+                    "n_ref": 13388
+                },
+                "4": {
+                    "Dice": 0.8670520231213873,
+                    "FN": 37,
+                    "FP": 9,
+                    "IoU": 0.7653061224489796,
+                    "TN": 2490172,
+                    "TP": 150,
+                    "n_pred": 159,
+                    "n_ref": 187
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/29321203.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/29321203.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9141395688710267,
+                    "FN": 176,
+                    "FP": 59,
+                    "IoU": 0.84185733512786,
+                    "TN": 10484274,
+                    "TP": 1251,
+                    "n_pred": 1310,
+                    "n_ref": 1427
+                },
+                "2": {
+                    "Dice": 0.6684073107049608,
+                    "FN": 231,
+                    "FP": 23,
+                    "IoU": 0.5019607843137255,
+                    "TN": 10485250,
+                    "TP": 256,
+                    "n_pred": 279,
+                    "n_ref": 487
+                },
+                "3": {
+                    "Dice": 0.9437364813801371,
+                    "FN": 3720,
+                    "FP": 4916,
+                    "IoU": 0.8934668903582355,
+                    "TN": 10404696,
+                    "TP": 72428,
+                    "n_pred": 77344,
+                    "n_ref": 76148
+                },
+                "4": {
+                    "Dice": 0.9250149970005999,
+                    "FN": 48,
+                    "FP": 77,
+                    "IoU": 0.8604910714285714,
+                    "TN": 10484864,
+                    "TP": 771,
+                    "n_pred": 848,
+                    "n_ref": 819
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/30200553.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/30200553.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8587461300309598,
+                    "FN": 660,
+                    "FP": 70,
+                    "IoU": 0.752458460495083,
+                    "TN": 10482811,
+                    "TP": 2219,
+                    "n_pred": 2289,
+                    "n_ref": 2879
+                },
+                "2": {
+                    "Dice": 0.5591476186139696,
+                    "FN": 4677,
+                    "FP": 164,
+                    "IoU": 0.3880672481355075,
+                    "TN": 10477849,
+                    "TP": 3070,
+                    "n_pred": 3234,
+                    "n_ref": 7747
+                },
+                "3": {
+                    "Dice": 0.8358582766566114,
+                    "FN": 19532,
+                    "FP": 9960,
+                    "IoU": 0.7180038820840863,
+                    "TN": 10381177,
+                    "TP": 75091,
+                    "n_pred": 85051,
+                    "n_ref": 94623
+                },
+                "4": {
+                    "Dice": 0.8493518104604381,
+                    "FN": 286,
+                    "FP": 51,
+                    "IoU": 0.7381507381507382,
+                    "TN": 10484473,
+                    "TP": 950,
+                    "n_pred": 1001,
+                    "n_ref": 1236
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/30339932.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/30339932.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5205047318611987,
+                    "FN": 206,
+                    "FP": 98,
+                    "IoU": 0.35181236673773986,
+                    "TN": 11796011,
+                    "TP": 165,
+                    "n_pred": 263,
+                    "n_ref": 371
+                },
+                "2": {
+                    "Dice": 0.4095808383233533,
+                    "FN": 960,
+                    "FP": 26,
+                    "IoU": 0.2575301204819277,
+                    "TN": 11795152,
+                    "TP": 342,
+                    "n_pred": 368,
+                    "n_ref": 1302
+                },
+                "3": {
+                    "Dice": 0.8718219050322371,
+                    "FN": 14779,
+                    "FP": 7348,
+                    "IoU": 0.772769750557113,
+                    "TN": 11699103,
+                    "TP": 75250,
+                    "n_pred": 82598,
+                    "n_ref": 90029
+                },
+                "4": {
+                    "Dice": 0.3524904214559387,
+                    "FN": 46,
+                    "FP": 123,
+                    "IoU": 0.21395348837209302,
+                    "TN": 11796265,
+                    "TP": 46,
+                    "n_pred": 169,
+                    "n_ref": 92
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/30351235.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/30351235.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9197247706422018,
+                    "FN": 15,
+                    "FP": 55,
+                    "IoU": 0.851380042462845,
+                    "TN": 2620969,
+                    "TP": 401,
+                    "n_pred": 456,
+                    "n_ref": 416
+                },
+                "2": {
+                    "Dice": 0.8751576292559899,
+                    "FN": 77,
+                    "FP": 22,
+                    "IoU": 0.7780269058295964,
+                    "TN": 2620994,
+                    "TP": 347,
+                    "n_pred": 369,
+                    "n_ref": 424
+                },
+                "3": {
+                    "Dice": 0.8122246696035242,
+                    "FN": 1579,
+                    "FP": 1831,
+                    "IoU": 0.683820120537784,
+                    "TN": 2610655,
+                    "TP": 7375,
+                    "n_pred": 9206,
+                    "n_ref": 8954
+                },
+                "4": {
+                    "Dice": 0.7586206896551724,
+                    "FN": 142,
+                    "FP": 26,
+                    "IoU": 0.6111111111111112,
+                    "TN": 2621008,
+                    "TP": 264,
+                    "n_pred": 290,
+                    "n_ref": 406
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/34128127.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/34128127.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8799002138275125,
+                    "FN": 523,
+                    "FP": 151,
+                    "IoU": 0.785555202036271,
+                    "TN": 10482617,
+                    "TP": 2469,
+                    "n_pred": 2620,
+                    "n_ref": 2992
+                },
+                "2": {
+                    "Dice": 0.6016894087069525,
+                    "FN": 578,
+                    "FP": 35,
+                    "IoU": 0.43029739776951675,
+                    "TN": 10484684,
+                    "TP": 463,
+                    "n_pred": 498,
+                    "n_ref": 1041
+                },
+                "3": {
+                    "Dice": 0.8763132512027908,
+                    "FN": 15896,
+                    "FP": 5519,
+                    "IoU": 0.7798554642926899,
+                    "TN": 10388483,
+                    "TP": 75862,
+                    "n_pred": 81381,
+                    "n_ref": 91758
+                },
+                "4": {
+                    "Dice": 0.8729955099422707,
+                    "FN": 321,
+                    "FP": 75,
+                    "IoU": 0.7746158224245874,
+                    "TN": 10484003,
+                    "TP": 1361,
+                    "n_pred": 1436,
+                    "n_ref": 1682
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/34879115.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/34879115.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7641509433962265,
+                    "FN": 379,
+                    "FP": 121,
+                    "IoU": 0.6183206106870229,
+                    "TN": 10484450,
+                    "TP": 810,
+                    "n_pred": 931,
+                    "n_ref": 1189
+                },
+                "2": {
+                    "Dice": 0.6324110671936759,
+                    "FN": 524,
+                    "FP": 127,
+                    "IoU": 0.4624277456647399,
+                    "TN": 10484549,
+                    "TP": 560,
+                    "n_pred": 687,
+                    "n_ref": 1084
+                },
+                "3": {
+                    "Dice": 0.8316949657432231,
+                    "FN": 8683,
+                    "FP": 13352,
+                    "IoU": 0.7118816930137685,
+                    "TN": 10409281,
+                    "TP": 54444,
+                    "n_pred": 67796,
+                    "n_ref": 63127
+                },
+                "4": {
+                    "Dice": 0.8539493293591655,
+                    "FN": 117,
+                    "FP": 79,
+                    "IoU": 0.7451235370611183,
+                    "TN": 10484991,
+                    "TP": 573,
+                    "n_pred": 652,
+                    "n_ref": 690
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/35412553.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/35412553.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6450662739322534,
+                    "FN": 429,
+                    "FP": 53,
+                    "IoU": 0.47608695652173916,
+                    "TN": 12581992,
+                    "TP": 438,
+                    "n_pred": 491,
+                    "n_ref": 867
+                },
+                "2": {
+                    "Dice": 0.6989918386941911,
+                    "FN": 551,
+                    "FP": 76,
+                    "IoU": 0.537269372693727,
+                    "TN": 12581557,
+                    "TP": 728,
+                    "n_pred": 804,
+                    "n_ref": 1279
+                },
+                "3": {
+                    "Dice": 0.8351223581757509,
+                    "FN": 12543,
+                    "FP": 11173,
+                    "IoU": 0.7169185227625391,
+                    "TN": 12499134,
+                    "TP": 60062,
+                    "n_pred": 71235,
+                    "n_ref": 72605
+                },
+                "4": {
+                    "Dice": 0.6451612903225806,
+                    "FN": 273,
+                    "FP": 35,
+                    "IoU": 0.47619047619047616,
+                    "TN": 12582324,
+                    "TP": 280,
+                    "n_pred": 315,
+                    "n_ref": 553
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/35828057.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/35828057.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8123924268502581,
+                    "FN": 303,
+                    "FP": 24,
+                    "IoU": 0.6840579710144927,
+                    "TN": 11795445,
+                    "TP": 708,
+                    "n_pred": 732,
+                    "n_ref": 1011
+                },
+                "2": {
+                    "Dice": 0.7297498142184791,
+                    "FN": 1011,
+                    "FP": 80,
+                    "IoU": 0.5744929797191888,
+                    "TN": 11793916,
+                    "TP": 1473,
+                    "n_pred": 1553,
+                    "n_ref": 2484
+                },
+                "3": {
+                    "Dice": 0.8798691111210722,
+                    "FN": 7448,
+                    "FP": 8632,
+                    "IoU": 0.7855056224738886,
+                    "TN": 11721513,
+                    "TP": 58887,
+                    "n_pred": 67519,
+                    "n_ref": 66335
+                },
+                "4": {
+                    "Dice": 0.7930250189537529,
+                    "FN": 253,
+                    "FP": 20,
+                    "IoU": 0.657035175879397,
+                    "TN": 11795684,
+                    "TP": 523,
+                    "n_pred": 543,
+                    "n_ref": 776
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/37098162.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/37098162.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7750556792873051,
+                    "FN": 193,
+                    "FP": 9,
+                    "IoU": 0.6327272727272727,
+                    "TN": 10485210,
+                    "TP": 348,
+                    "n_pred": 357,
+                    "n_ref": 541
+                },
+                "2": {
+                    "Dice": 0.5179233621755254,
+                    "FN": 763,
+                    "FP": 17,
+                    "IoU": 0.3494578815679733,
+                    "TN": 10484561,
+                    "TP": 419,
+                    "n_pred": 436,
+                    "n_ref": 1182
+                },
+                "3": {
+                    "Dice": 0.8936660753670181,
+                    "FN": 10082,
+                    "FP": 10119,
+                    "IoU": 0.8077724595342995,
+                    "TN": 10380671,
+                    "TP": 84888,
+                    "n_pred": 95007,
+                    "n_ref": 94970
+                },
+                "4": {
+                    "Dice": 0.7285546415981199,
+                    "FN": 221,
+                    "FP": 10,
+                    "IoU": 0.5730129390018485,
+                    "TN": 10485219,
+                    "TP": 310,
+                    "n_pred": 320,
+                    "n_ref": 531
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/37582427.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/37582427.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7945969125214408,
+                    "FN": 878,
+                    "FP": 80,
+                    "IoU": 0.6591960156527926,
+                    "TN": 13104389,
+                    "TP": 1853,
+                    "n_pred": 1933,
+                    "n_ref": 2731
+                },
+                "2": {
+                    "Dice": 0.5714285714285714,
+                    "FN": 883,
+                    "FP": 428,
+                    "IoU": 0.4,
+                    "TN": 13105015,
+                    "TP": 874,
+                    "n_pred": 1302,
+                    "n_ref": 1757
+                },
+                "3": {
+                    "Dice": 0.8804561771740257,
+                    "FN": 15031,
+                    "FP": 11510,
+                    "IoU": 0.7864419053749597,
+                    "TN": 12982920,
+                    "TP": 97739,
+                    "n_pred": 109249,
+                    "n_ref": 112770
+                },
+                "4": {
+                    "Dice": 0.8163093736864229,
+                    "FN": 314,
+                    "FP": 123,
+                    "IoU": 0.6896306818181818,
+                    "TN": 13105792,
+                    "TP": 971,
+                    "n_pred": 1094,
+                    "n_ref": 1285
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/37695981.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/37695981.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6780796427242277,
+                    "FN": 823,
+                    "FP": 42,
+                    "IoU": 0.5129504504504504,
+                    "TN": 2619664,
+                    "TP": 911,
+                    "n_pred": 953,
+                    "n_ref": 1734
+                },
+                "2": {
+                    "Dice": 0.8635724331926864,
+                    "FN": 56,
+                    "FP": 41,
+                    "IoU": 0.7599009900990099,
+                    "TN": 2621036,
+                    "TP": 307,
+                    "n_pred": 348,
+                    "n_ref": 363
+                },
+                "3": {
+                    "Dice": 0.9029738803304841,
+                    "FN": 3301,
+                    "FP": 774,
+                    "IoU": 0.8231106480878586,
+                    "TN": 2598403,
+                    "TP": 18962,
+                    "n_pred": 19736,
+                    "n_ref": 22263
+                },
+                "4": {
+                    "Dice": 0.887956357532522,
+                    "FN": 229,
+                    "FP": 38,
+                    "IoU": 0.7984905660377358,
+                    "TN": 2620115,
+                    "TP": 1058,
+                    "n_pred": 1096,
+                    "n_ref": 1287
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/37751230.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/37751230.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8728971962616823,
+                    "FN": 9,
+                    "FP": 127,
+                    "IoU": 0.7744610281923715,
+                    "TN": 10485157,
+                    "TP": 467,
+                    "n_pred": 594,
+                    "n_ref": 476
+                },
+                "2": {
+                    "Dice": 0.8343313373253493,
+                    "FN": 134,
+                    "FP": 32,
+                    "IoU": 0.7157534246575342,
+                    "TN": 10485176,
+                    "TP": 418,
+                    "n_pred": 450,
+                    "n_ref": 552
+                },
+                "3": {
+                    "Dice": 0.935496700714092,
+                    "FN": 1951,
+                    "FP": 5185,
+                    "IoU": 0.8788105225616901,
+                    "TN": 10426877,
+                    "TP": 51747,
+                    "n_pred": 56932,
+                    "n_ref": 53698
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 28,
+                    "IoU": 0.0,
+                    "TN": 10485732,
+                    "TP": 0,
+                    "n_pred": 28,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/39204444.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/39204444.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.943952802359882,
+                    "FN": 17,
+                    "FP": 40,
+                    "IoU": 0.8938547486033519,
+                    "TN": 2620903,
+                    "TP": 480,
+                    "n_pred": 520,
+                    "n_ref": 497
+                },
+                "2": {
+                    "Dice": 0.9081803005008348,
+                    "FN": 66,
+                    "FP": 44,
+                    "IoU": 0.8318042813455657,
+                    "TN": 2620786,
+                    "TP": 544,
+                    "n_pred": 588,
+                    "n_ref": 610
+                },
+                "3": {
+                    "Dice": 0.9180111952584787,
+                    "FN": 578,
+                    "FP": 1165,
+                    "IoU": 0.8484479610468655,
+                    "TN": 2609939,
+                    "TP": 9758,
+                    "n_pred": 10923,
+                    "n_ref": 10336
+                },
+                "4": {
+                    "Dice": 0.9283819628647215,
+                    "FN": 73,
+                    "FP": 8,
+                    "IoU": 0.8663366336633663,
+                    "TN": 2620834,
+                    "TP": 525,
+                    "n_pred": 533,
+                    "n_ref": 598
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/42981165.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/42981165.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6784862458260454,
+                    "FN": 2798,
+                    "FP": 1246,
+                    "IoU": 0.5134159547587535,
+                    "TN": 10477449,
+                    "TP": 4267,
+                    "n_pred": 5513,
+                    "n_ref": 7065
+                },
+                "2": {
+                    "Dice": 0.7899343544857768,
+                    "FN": 330,
+                    "FP": 54,
+                    "IoU": 0.6528028933092225,
+                    "TN": 10484654,
+                    "TP": 722,
+                    "n_pred": 776,
+                    "n_ref": 1052
+                },
+                "3": {
+                    "Dice": 0.8832468160831878,
+                    "FN": 10829,
+                    "FP": 3408,
+                    "IoU": 0.7909060200619777,
+                    "TN": 10417671,
+                    "TP": 53852,
+                    "n_pred": 57260,
+                    "n_ref": 64681
+                },
+                "4": {
+                    "Dice": 0.9195908325780138,
+                    "FN": 474,
+                    "FP": 147,
+                    "IoU": 0.8511505273250239,
+                    "TN": 10481588,
+                    "TP": 3551,
+                    "n_pred": 3698,
+                    "n_ref": 4025
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/43035964.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/43035964.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6272189349112426,
+                    "FN": 171,
+                    "FP": 18,
+                    "IoU": 0.45689655172413796,
+                    "TN": 1965732,
+                    "TP": 159,
+                    "n_pred": 177,
+                    "n_ref": 330
+                },
+                "2": {
+                    "Dice": 0.9036544850498339,
+                    "FN": 19,
+                    "FP": 10,
+                    "IoU": 0.8242424242424242,
+                    "TN": 1965915,
+                    "TP": 136,
+                    "n_pred": 146,
+                    "n_ref": 155
+                },
+                "3": {
+                    "Dice": 0.8261472341605435,
+                    "FN": 878,
+                    "FP": 1630,
+                    "IoU": 0.703791189323255,
+                    "TN": 1957613,
+                    "TP": 5959,
+                    "n_pred": 7589,
+                    "n_ref": 6837
+                },
+                "4": {
+                    "Dice": 0.4819277108433735,
+                    "FN": 33,
+                    "FP": 139,
+                    "IoU": 0.31746031746031744,
+                    "TN": 1965828,
+                    "TP": 80,
+                    "n_pred": 219,
+                    "n_ref": 113
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/43306837.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/43306837.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8053097345132744,
+                    "FN": 36,
+                    "FP": 184,
+                    "IoU": 0.674074074074074,
+                    "TN": 2293085,
+                    "TP": 455,
+                    "n_pred": 639,
+                    "n_ref": 491
+                },
+                "2": {
+                    "Dice": 0.8602150537634409,
+                    "FN": 30,
+                    "FP": 9,
+                    "IoU": 0.7547169811320755,
+                    "TN": 2293601,
+                    "TP": 120,
+                    "n_pred": 129,
+                    "n_ref": 150
+                },
+                "3": {
+                    "Dice": 0.9261785968842277,
+                    "FN": 857,
+                    "FP": 593,
+                    "IoU": 0.8625071117011189,
+                    "TN": 2283214,
+                    "TP": 9096,
+                    "n_pred": 9689,
+                    "n_ref": 9953
+                },
+                "4": {
+                    "Dice": 0.9754689754689755,
+                    "FN": 12,
+                    "FP": 5,
+                    "IoU": 0.952112676056338,
+                    "TN": 2293405,
+                    "TP": 338,
+                    "n_pred": 343,
+                    "n_ref": 350
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/47185513.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/47185513.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8466257668711656,
+                    "FN": 16,
+                    "FP": 9,
+                    "IoU": 0.7340425531914894,
+                    "TN": 2621346,
+                    "TP": 69,
+                    "n_pred": 78,
+                    "n_ref": 85
+                },
+                "2": {
+                    "Dice": 0.9097744360902256,
+                    "FN": 7,
+                    "FP": 17,
+                    "IoU": 0.8344827586206897,
+                    "TN": 2621295,
+                    "TP": 121,
+                    "n_pred": 138,
+                    "n_ref": 128
+                },
+                "3": {
+                    "Dice": 0.9318737819795165,
+                    "FN": 485,
+                    "FP": 1158,
+                    "IoU": 0.8724378881987578,
+                    "TN": 2608560,
+                    "TP": 11237,
+                    "n_pred": 12395,
+                    "n_ref": 11722
+                },
+                "4": {
+                    "Dice": 0.8969072164948454,
+                    "FN": 12,
+                    "FP": 8,
+                    "IoU": 0.8130841121495327,
+                    "TN": 2621333,
+                    "TP": 87,
+                    "n_pred": 95,
+                    "n_ref": 99
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/47518803.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/47518803.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9305772230889235,
+                    "FN": 71,
+                    "FP": 107,
+                    "IoU": 0.8701677607585704,
+                    "TN": 10484389,
+                    "TP": 1193,
+                    "n_pred": 1300,
+                    "n_ref": 1264
+                },
+                "2": {
+                    "Dice": 0.842832469775475,
+                    "FN": 229,
+                    "FP": 44,
+                    "IoU": 0.7283582089552239,
+                    "TN": 10484755,
+                    "TP": 732,
+                    "n_pred": 776,
+                    "n_ref": 961
+                },
+                "3": {
+                    "Dice": 0.9372971616072869,
+                    "FN": 3300,
+                    "FP": 3694,
+                    "IoU": 0.8819936559357495,
+                    "TN": 10426492,
+                    "TP": 52274,
+                    "n_pred": 55968,
+                    "n_ref": 55574
+                },
+                "4": {
+                    "Dice": 0.8698224852071006,
+                    "FN": 11,
+                    "FP": 77,
+                    "IoU": 0.7696335078534031,
+                    "TN": 10485378,
+                    "TP": 294,
+                    "n_pred": 371,
+                    "n_ref": 305
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/48348711.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/48348711.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9012738853503185,
+                    "FN": 230,
+                    "FP": 328,
+                    "IoU": 0.8202898550724638,
+                    "TN": 10482655,
+                    "TP": 2547,
+                    "n_pred": 2875,
+                    "n_ref": 2777
+                },
+                "2": {
+                    "Dice": 0.6028833551769331,
+                    "FN": 600,
+                    "FP": 6,
+                    "IoU": 0.43151969981238275,
+                    "TN": 10484694,
+                    "TP": 460,
+                    "n_pred": 466,
+                    "n_ref": 1060
+                },
+                "3": {
+                    "Dice": 0.9026408273923084,
+                    "FN": 3546,
+                    "FP": 6150,
+                    "IoU": 0.822557326647512,
+                    "TN": 10431117,
+                    "TP": 44947,
+                    "n_pred": 51097,
+                    "n_ref": 48493
+                },
+                "4": {
+                    "Dice": 0.8130671506352087,
+                    "FN": 109,
+                    "FP": 97,
+                    "IoU": 0.6850152905198776,
+                    "TN": 10485106,
+                    "TP": 448,
+                    "n_pred": 545,
+                    "n_ref": 557
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/48756189.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/48756189.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.1875,
+                    "FN": 25,
+                    "FP": 1,
+                    "IoU": 0.10344827586206896,
+                    "TN": 2621411,
+                    "TP": 3,
+                    "n_pred": 4,
+                    "n_ref": 28
+                },
+                "2": {
+                    "Dice": 0.7081339712918661,
+                    "FN": 32,
+                    "FP": 29,
+                    "IoU": 0.5481481481481482,
+                    "TN": 2621305,
+                    "TP": 74,
+                    "n_pred": 103,
+                    "n_ref": 106
+                },
+                "3": {
+                    "Dice": 0.9380780056292722,
+                    "FN": 691,
+                    "FP": 1157,
+                    "IoU": 0.8833775085195001,
+                    "TN": 2605594,
+                    "TP": 13998,
+                    "n_pred": 15155,
+                    "n_ref": 14689
+                },
+                "4": {
+                    "Dice": 0.8209606986899564,
+                    "FN": 27,
+                    "FP": 14,
+                    "IoU": 0.6962962962962963,
+                    "TN": 2621305,
+                    "TP": 94,
+                    "n_pred": 108,
+                    "n_ref": 121
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/48984009.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/48984009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.93717277486911,
+                    "FN": 18,
+                    "FP": 6,
+                    "IoU": 0.8817733990147784,
+                    "TN": 2621237,
+                    "TP": 179,
+                    "n_pred": 185,
+                    "n_ref": 197
+                },
+                "2": {
+                    "Dice": 0.8634686346863468,
+                    "FN": 22,
+                    "FP": 15,
+                    "IoU": 0.7597402597402597,
+                    "TN": 2621286,
+                    "TP": 117,
+                    "n_pred": 132,
+                    "n_ref": 139
+                },
+                "3": {
+                    "Dice": 0.9245016658196398,
+                    "FN": 826,
+                    "FP": 511,
+                    "IoU": 0.8596030662606321,
+                    "TN": 2611917,
+                    "TP": 8186,
+                    "n_pred": 8697,
+                    "n_ref": 9012
+                },
+                "4": {
+                    "Dice": 0.8944099378881988,
+                    "FN": 8,
+                    "FP": 26,
+                    "IoU": 0.8089887640449438,
+                    "TN": 2621262,
+                    "TP": 144,
+                    "n_pred": 170,
+                    "n_ref": 152
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/49397761.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/49397761.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9015188633023028,
+                    "FN": 78,
+                    "FP": 123,
+                    "IoU": 0.8206958073148974,
+                    "TN": 10484639,
+                    "TP": 920,
+                    "n_pred": 1043,
+                    "n_ref": 998
+                },
+                "2": {
+                    "Dice": 0.6908893709327549,
+                    "FN": 548,
+                    "FP": 22,
+                    "IoU": 0.527754763877382,
+                    "TN": 10484553,
+                    "TP": 637,
+                    "n_pred": 659,
+                    "n_ref": 1185
+                },
+                "3": {
+                    "Dice": 0.9487415028476943,
+                    "FN": 6365,
+                    "FP": 4237,
+                    "IoU": 0.9024816497728068,
+                    "TN": 10377042,
+                    "TP": 98116,
+                    "n_pred": 102353,
+                    "n_ref": 104481
+                },
+                "4": {
+                    "Dice": 0.9094117647058824,
+                    "FN": 106,
+                    "FP": 48,
+                    "IoU": 0.8338727076591155,
+                    "TN": 10484833,
+                    "TP": 773,
+                    "n_pred": 821,
+                    "n_ref": 879
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/49725809.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/49725809.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8085998951232302,
+                    "FN": 323,
+                    "FP": 42,
+                    "IoU": 0.6786971830985915,
+                    "TN": 10484624,
+                    "TP": 771,
+                    "n_pred": 813,
+                    "n_ref": 1094
+                },
+                "2": {
+                    "Dice": 0.34375,
+                    "FN": 705,
+                    "FP": 9,
+                    "IoU": 0.20754716981132076,
+                    "TN": 10484859,
+                    "TP": 187,
+                    "n_pred": 196,
+                    "n_ref": 892
+                },
+                "3": {
+                    "Dice": 0.8655718345204266,
+                    "FN": 11499,
+                    "FP": 6714,
+                    "IoU": 0.7630027716691173,
+                    "TN": 10408911,
+                    "TP": 58636,
+                    "n_pred": 65350,
+                    "n_ref": 70135
+                },
+                "4": {
+                    "Dice": 0.6919191919191919,
+                    "FN": 215,
+                    "FP": 29,
+                    "IoU": 0.528957528957529,
+                    "TN": 10485242,
+                    "TP": 274,
+                    "n_pred": 303,
+                    "n_ref": 489
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/49887372.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/49887372.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9086229086229086,
+                    "FN": 46,
+                    "FP": 96,
+                    "IoU": 0.8325471698113207,
+                    "TN": 13106352,
+                    "TP": 706,
+                    "n_pred": 802,
+                    "n_ref": 752
+                },
+                "2": {
+                    "Dice": 0.8546365914786967,
+                    "FN": 106,
+                    "FP": 10,
+                    "IoU": 0.7461706783369803,
+                    "TN": 13106743,
+                    "TP": 341,
+                    "n_pred": 351,
+                    "n_ref": 447
+                },
+                "3": {
+                    "Dice": 0.9342555087948912,
+                    "FN": 2773,
+                    "FP": 3054,
+                    "IoU": 0.8766224141946686,
+                    "TN": 13059971,
+                    "TP": 41402,
+                    "n_pred": 44456,
+                    "n_ref": 44175
+                },
+                "4": {
+                    "Dice": 0.9010989010989011,
+                    "FN": 50,
+                    "FP": 58,
+                    "IoU": 0.82,
+                    "TN": 13106600,
+                    "TP": 492,
+                    "n_pred": 550,
+                    "n_ref": 542
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/49943328.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/49943328.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8247882300490414,
+                    "FN": 1726,
+                    "FP": 1025,
+                    "IoU": 0.7018209408194234,
+                    "TN": 10476534,
+                    "TP": 6475,
+                    "n_pred": 7500,
+                    "n_ref": 8201
+                },
+                "2": {
+                    "Dice": 0.6887421141486242,
+                    "FN": 9928,
+                    "FP": 581,
+                    "IoU": 0.5252529815684858,
+                    "TN": 10463624,
+                    "TP": 11627,
+                    "n_pred": 12208,
+                    "n_ref": 21555
+                },
+                "3": {
+                    "Dice": 0.7569376298996154,
+                    "FN": 17601,
+                    "FP": 22278,
+                    "IoU": 0.608929727185361,
+                    "TN": 10383786,
+                    "TP": 62095,
+                    "n_pred": 84373,
+                    "n_ref": 79696
+                },
+                "4": {
+                    "Dice": 0.03484320557491289,
+                    "FN": 307,
+                    "FP": 247,
+                    "IoU": 0.01773049645390071,
+                    "TN": 10485196,
+                    "TP": 10,
+                    "n_pred": 257,
+                    "n_ref": 317
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50095654.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50095654.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.875,
+                    "FN": 51,
+                    "FP": 11,
+                    "IoU": 0.7777777777777778,
+                    "TN": 2293481,
+                    "TP": 217,
+                    "n_pred": 228,
+                    "n_ref": 268
+                },
+                "2": {
+                    "Dice": 0.7486631016042781,
+                    "FN": 75,
+                    "FP": 19,
+                    "IoU": 0.5982905982905983,
+                    "TN": 2293526,
+                    "TP": 140,
+                    "n_pred": 159,
+                    "n_ref": 215
+                },
+                "3": {
+                    "Dice": 0.9383490073145245,
+                    "FN": 359,
+                    "FP": 821,
+                    "IoU": 0.8838582677165354,
+                    "TN": 2283600,
+                    "TP": 8980,
+                    "n_pred": 9801,
+                    "n_ref": 9339
+                },
+                "4": {
+                    "Dice": 0.8902439024390244,
+                    "FN": 8,
+                    "FP": 10,
+                    "IoU": 0.8021978021978022,
+                    "TN": 2293669,
+                    "TP": 73,
+                    "n_pred": 83,
+                    "n_ref": 81
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50176072.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50176072.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8565891472868217,
+                    "FN": 66,
+                    "FP": 8,
+                    "IoU": 0.7491525423728813,
+                    "TN": 2227929,
+                    "TP": 221,
+                    "n_pred": 229,
+                    "n_ref": 287
+                },
+                "2": {
+                    "Dice": 0.2585551330798479,
+                    "FN": 193,
+                    "FP": 2,
+                    "IoU": 0.14847161572052403,
+                    "TN": 2227995,
+                    "TP": 34,
+                    "n_pred": 36,
+                    "n_ref": 227
+                },
+                "3": {
+                    "Dice": 0.9105666914130166,
+                    "FN": 490,
+                    "FP": 1317,
+                    "IoU": 0.8358168271851717,
+                    "TN": 2217218,
+                    "TP": 9199,
+                    "n_pred": 10516,
+                    "n_ref": 9689
+                },
+                "4": {
+                    "Dice": 0.8230912476722533,
+                    "FN": 91,
+                    "FP": 4,
+                    "IoU": 0.6993670886075949,
+                    "TN": 2227908,
+                    "TP": 221,
+                    "n_pred": 225,
+                    "n_ref": 312
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50201808.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50201808.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8705234159779615,
+                    "FN": 4,
+                    "FP": 325,
+                    "IoU": 0.7707317073170732,
+                    "TN": 10484325,
+                    "TP": 1106,
+                    "n_pred": 1431,
+                    "n_ref": 1110
+                },
+                "2": {
+                    "Dice": 0.9144258561793817,
+                    "FN": 576,
+                    "FP": 401,
+                    "IoU": 0.8423430692270454,
+                    "TN": 10479563,
+                    "TP": 5220,
+                    "n_pred": 5621,
+                    "n_ref": 5796
+                },
+                "3": {
+                    "Dice": 0.9161965285433283,
+                    "FN": 9543,
+                    "FP": 5965,
+                    "IoU": 0.8453530115676107,
+                    "TN": 10385480,
+                    "TP": 84772,
+                    "n_pred": 90737,
+                    "n_ref": 94315
+                },
+                "4": {
+                    "Dice": 0.9434914228052472,
+                    "FN": 39,
+                    "FP": 73,
+                    "IoU": 0.8930276981852913,
+                    "TN": 10484713,
+                    "TP": 935,
+                    "n_pred": 1008,
+                    "n_ref": 974
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50207231.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50207231.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7669902912621359,
+                    "FN": 39,
+                    "FP": 9,
+                    "IoU": 0.6220472440944882,
+                    "TN": 2621313,
+                    "TP": 79,
+                    "n_pred": 88,
+                    "n_ref": 118
+                },
+                "2": {
+                    "Dice": 0.5230769230769231,
+                    "FN": 59,
+                    "FP": 3,
+                    "IoU": 0.3541666666666667,
+                    "TN": 2621344,
+                    "TP": 34,
+                    "n_pred": 37,
+                    "n_ref": 93
+                },
+                "3": {
+                    "Dice": 0.9193701940681069,
+                    "FN": 419,
+                    "FP": 682,
+                    "IoU": 0.8507725670913526,
+                    "TN": 2614062,
+                    "TP": 6277,
+                    "n_pred": 6959,
+                    "n_ref": 6696
+                },
+                "4": {
+                    "Dice": 0.16666666666666666,
+                    "FN": 10,
+                    "FP": 0,
+                    "IoU": 0.09090909090909091,
+                    "TN": 2621429,
+                    "TP": 1,
+                    "n_pred": 1,
+                    "n_ref": 11
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50299728.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50299728.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8157894736842105,
+                    "FN": 25,
+                    "FP": 31,
+                    "IoU": 0.6888888888888889,
+                    "TN": 2621260,
+                    "TP": 124,
+                    "n_pred": 155,
+                    "n_ref": 149
+                },
+                "2": {
+                    "Dice": 0.7532467532467533,
+                    "FN": 17,
+                    "FP": 21,
+                    "IoU": 0.6041666666666666,
+                    "TN": 2621344,
+                    "TP": 58,
+                    "n_pred": 79,
+                    "n_ref": 75
+                },
+                "3": {
+                    "Dice": 0.9065155807365439,
+                    "FN": 709,
+                    "FP": 1172,
+                    "IoU": 0.8290155440414507,
+                    "TN": 2610439,
+                    "TP": 9120,
+                    "n_pred": 10292,
+                    "n_ref": 9829
+                },
+                "4": {
+                    "Dice": 0.8303249097472925,
+                    "FN": 26,
+                    "FP": 21,
+                    "IoU": 0.7098765432098766,
+                    "TN": 2621278,
+                    "TP": 115,
+                    "n_pred": 136,
+                    "n_ref": 141
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50369038.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50369038.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8267117497886729,
+                    "FN": 147,
+                    "FP": 58,
+                    "IoU": 0.7046109510086456,
+                    "TN": 2620746,
+                    "TP": 489,
+                    "n_pred": 547,
+                    "n_ref": 636
+                },
+                "2": {
+                    "Dice": 0.7081967213114754,
+                    "FN": 50,
+                    "FP": 39,
+                    "IoU": 0.5482233502538071,
+                    "TN": 2621243,
+                    "TP": 108,
+                    "n_pred": 147,
+                    "n_ref": 158
+                },
+                "3": {
+                    "Dice": 0.6785472591924205,
+                    "FN": 922,
+                    "FP": 4778,
+                    "IoU": 0.5134858313417549,
+                    "TN": 2609724,
+                    "TP": 6016,
+                    "n_pred": 10794,
+                    "n_ref": 6938
+                },
+                "4": {
+                    "Dice": 0.6329113924050633,
+                    "FN": 1,
+                    "FP": 86,
+                    "IoU": 0.46296296296296297,
+                    "TN": 2621278,
+                    "TP": 75,
+                    "n_pred": 161,
+                    "n_ref": 76
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50414200.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50414200.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9230769230769231,
+                    "FN": 7,
+                    "FP": 22,
+                    "IoU": 0.8571428571428571,
+                    "TN": 2424629,
+                    "TP": 174,
+                    "n_pred": 196,
+                    "n_ref": 181
+                },
+                "2": {
+                    "Dice": 0.7516778523489933,
+                    "FN": 13,
+                    "FP": 24,
+                    "IoU": 0.6021505376344086,
+                    "TN": 2424739,
+                    "TP": 56,
+                    "n_pred": 80,
+                    "n_ref": 69
+                },
+                "3": {
+                    "Dice": 0.8011344452697684,
+                    "FN": 4535,
+                    "FP": 1355,
+                    "IoU": 0.6682437760504675,
+                    "TN": 2407078,
+                    "TP": 11864,
+                    "n_pred": 13219,
+                    "n_ref": 16399
+                },
+                "4": {
+                    "Dice": 0.9135802469135802,
+                    "FN": 13,
+                    "FP": 8,
+                    "IoU": 0.8409090909090909,
+                    "TN": 2424700,
+                    "TP": 111,
+                    "n_pred": 119,
+                    "n_ref": 124
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50493962.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50493962.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7636761487964989,
+                    "FN": 199,
+                    "FP": 17,
+                    "IoU": 0.6176991150442478,
+                    "TN": 2620875,
+                    "TP": 349,
+                    "n_pred": 366,
+                    "n_ref": 548
+                },
+                "2": {
+                    "Dice": 0.625,
+                    "FN": 317,
+                    "FP": 103,
+                    "IoU": 0.45454545454545453,
+                    "TN": 2620670,
+                    "TP": 350,
+                    "n_pred": 453,
+                    "n_ref": 667
+                },
+                "3": {
+                    "Dice": 0.9062909567496723,
+                    "FN": 1346,
+                    "FP": 1514,
+                    "IoU": 0.8286399041342121,
+                    "TN": 2604750,
+                    "TP": 13830,
+                    "n_pred": 15344,
+                    "n_ref": 15176
+                },
+                "4": {
+                    "Dice": 0.9054726368159204,
+                    "FN": 37,
+                    "FP": 20,
+                    "IoU": 0.8272727272727273,
+                    "TN": 2621110,
+                    "TP": 273,
+                    "n_pred": 293,
+                    "n_ref": 310
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50531910.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50531910.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9544364508393285,
+                    "FN": 26,
+                    "FP": 12,
+                    "IoU": 0.9128440366972477,
+                    "TN": 2621004,
+                    "TP": 398,
+                    "n_pred": 410,
+                    "n_ref": 424
+                },
+                "2": {
+                    "Dice": 0.6678832116788321,
+                    "FN": 147,
+                    "FP": 35,
+                    "IoU": 0.5013698630136987,
+                    "TN": 2621075,
+                    "TP": 183,
+                    "n_pred": 218,
+                    "n_ref": 330
+                },
+                "3": {
+                    "Dice": 0.9306475143081585,
+                    "FN": 521,
+                    "FP": 715,
+                    "IoU": 0.8702906915730927,
+                    "TN": 2611911,
+                    "TP": 8293,
+                    "n_pred": 9008,
+                    "n_ref": 8814
+                },
+                "4": {
+                    "Dice": 0.9324009324009324,
+                    "FN": 21,
+                    "FP": 8,
+                    "IoU": 0.8733624454148472,
+                    "TN": 2621211,
+                    "TP": 200,
+                    "n_pred": 208,
+                    "n_ref": 221
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50537033.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50537033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9509043927648578,
+                    "FN": 4,
+                    "FP": 15,
+                    "IoU": 0.9064039408866995,
+                    "TN": 2359093,
+                    "TP": 184,
+                    "n_pred": 199,
+                    "n_ref": 188
+                },
+                "2": {
+                    "Dice": 0.8553459119496856,
+                    "FN": 32,
+                    "FP": 14,
+                    "IoU": 0.7472527472527473,
+                    "TN": 2359114,
+                    "TP": 136,
+                    "n_pred": 150,
+                    "n_ref": 168
+                },
+                "3": {
+                    "Dice": 0.932439811367585,
+                    "FN": 400,
+                    "FP": 961,
+                    "IoU": 0.8734306705105552,
+                    "TN": 2348543,
+                    "TP": 9392,
+                    "n_pred": 10353,
+                    "n_ref": 9792
+                },
+                "4": {
+                    "Dice": 0.9424083769633508,
+                    "FN": 14,
+                    "FP": 8,
+                    "IoU": 0.8910891089108911,
+                    "TN": 2359094,
+                    "TP": 180,
+                    "n_pred": 188,
+                    "n_ref": 194
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50606357.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50606357.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9277899343544858,
+                    "FN": 18,
+                    "FP": 15,
+                    "IoU": 0.8653061224489796,
+                    "TN": 2621195,
+                    "TP": 212,
+                    "n_pred": 227,
+                    "n_ref": 230
+                },
+                "2": {
+                    "Dice": 0.8945868945868946,
+                    "FN": 13,
+                    "FP": 24,
+                    "IoU": 0.8092783505154639,
+                    "TN": 2621246,
+                    "TP": 157,
+                    "n_pred": 181,
+                    "n_ref": 170
+                },
+                "3": {
+                    "Dice": 0.9483759948375995,
+                    "FN": 408,
+                    "FP": 552,
+                    "IoU": 0.9018204131724279,
+                    "TN": 2611662,
+                    "TP": 8818,
+                    "n_pred": 9370,
+                    "n_ref": 9226
+                },
+                "4": {
+                    "Dice": 0.9411764705882353,
+                    "FN": 1,
+                    "FP": 11,
+                    "IoU": 0.8888888888888888,
+                    "TN": 2621332,
+                    "TP": 96,
+                    "n_pred": 107,
+                    "n_ref": 97
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50671832.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50671832.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9453376205787781,
+                    "FN": 6,
+                    "FP": 28,
+                    "IoU": 0.8963414634146342,
+                    "TN": 2752184,
+                    "TP": 294,
+                    "n_pred": 322,
+                    "n_ref": 300
+                },
+                "2": {
+                    "Dice": 0.8686567164179104,
+                    "FN": 66,
+                    "FP": 22,
+                    "IoU": 0.7678100263852242,
+                    "TN": 2752133,
+                    "TP": 291,
+                    "n_pred": 313,
+                    "n_ref": 357
+                },
+                "3": {
+                    "Dice": 0.9008726164642874,
+                    "FN": 1082,
+                    "FP": 1065,
+                    "IoU": 0.8196253045450727,
+                    "TN": 2740609,
+                    "TP": 9756,
+                    "n_pred": 10821,
+                    "n_ref": 10838
+                },
+                "4": {
+                    "Dice": 0.9314285714285714,
+                    "FN": 9,
+                    "FP": 15,
+                    "IoU": 0.8716577540106952,
+                    "TN": 2752325,
+                    "TP": 163,
+                    "n_pred": 178,
+                    "n_ref": 172
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50676628.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50676628.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8245614035087719,
+                    "FN": 233,
+                    "FP": 107,
+                    "IoU": 0.7014925373134329,
+                    "TN": 11795341,
+                    "TP": 799,
+                    "n_pred": 906,
+                    "n_ref": 1032
+                },
+                "2": {
+                    "Dice": 0.6068476977567887,
+                    "FN": 279,
+                    "FP": 54,
+                    "IoU": 0.43559322033898307,
+                    "TN": 11795890,
+                    "TP": 257,
+                    "n_pred": 311,
+                    "n_ref": 536
+                },
+                "3": {
+                    "Dice": 0.9364209005145298,
+                    "FN": 4876,
+                    "FP": 6035,
+                    "IoU": 0.8804431198089019,
+                    "TN": 11705218,
+                    "TP": 80351,
+                    "n_pred": 86386,
+                    "n_ref": 85227
+                },
+                "4": {
+                    "Dice": 0.9488372093023256,
+                    "FN": 18,
+                    "FP": 70,
+                    "IoU": 0.9026548672566371,
+                    "TN": 11795576,
+                    "TP": 816,
+                    "n_pred": 886,
+                    "n_ref": 834
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50685437.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50685437.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8163265306122449,
+                    "FN": 179,
+                    "FP": 10,
+                    "IoU": 0.6896551724137931,
+                    "TN": 2293151,
+                    "TP": 420,
+                    "n_pred": 430,
+                    "n_ref": 599
+                },
+                "2": {
+                    "Dice": 0.7252336448598131,
+                    "FN": 46,
+                    "FP": 101,
+                    "IoU": 0.5689149560117303,
+                    "TN": 2293419,
+                    "TP": 194,
+                    "n_pred": 295,
+                    "n_ref": 240
+                },
+                "3": {
+                    "Dice": 0.9113596450688604,
+                    "FN": 702,
+                    "FP": 1216,
+                    "IoU": 0.8371540159619629,
+                    "TN": 2281982,
+                    "TP": 9860,
+                    "n_pred": 11076,
+                    "n_ref": 10562
+                },
+                "4": {
+                    "Dice": 0.8858321870701513,
+                    "FN": 34,
+                    "FP": 49,
+                    "IoU": 0.7950617283950617,
+                    "TN": 2293355,
+                    "TP": 322,
+                    "n_pred": 371,
+                    "n_ref": 356
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50724527.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50724527.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8803418803418803,
+                    "FN": 8,
+                    "FP": 20,
+                    "IoU": 0.7862595419847328,
+                    "TN": 2293629,
+                    "TP": 103,
+                    "n_pred": 123,
+                    "n_ref": 111
+                },
+                "2": {
+                    "Dice": 0.5859872611464968,
+                    "FN": 64,
+                    "FP": 1,
+                    "IoU": 0.4144144144144144,
+                    "TN": 2293649,
+                    "TP": 46,
+                    "n_pred": 47,
+                    "n_ref": 110
+                },
+                "3": {
+                    "Dice": 0.8223192019950125,
+                    "FN": 1592,
+                    "FP": 1258,
+                    "IoU": 0.6982530439385919,
+                    "TN": 2284315,
+                    "TP": 6595,
+                    "n_pred": 7853,
+                    "n_ref": 8187
+                },
+                "4": {
+                    "Dice": 0.6950354609929078,
+                    "FN": 18,
+                    "FP": 25,
+                    "IoU": 0.532608695652174,
+                    "TN": 2293668,
+                    "TP": 49,
+                    "n_pred": 74,
+                    "n_ref": 67
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50817979.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50817979.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8932714617169374,
+                    "FN": 53,
+                    "FP": 39,
+                    "IoU": 0.8071278825995807,
+                    "TN": 2293283,
+                    "TP": 385,
+                    "n_pred": 424,
+                    "n_ref": 438
+                },
+                "2": {
+                    "Dice": 0.8204283360790774,
+                    "FN": 68,
+                    "FP": 41,
+                    "IoU": 0.6955307262569832,
+                    "TN": 2293402,
+                    "TP": 249,
+                    "n_pred": 290,
+                    "n_ref": 317
+                },
+                "3": {
+                    "Dice": 0.9349976448422044,
+                    "FN": 677,
+                    "FP": 703,
+                    "IoU": 0.8779301194161875,
+                    "TN": 2282455,
+                    "TP": 9925,
+                    "n_pred": 10628,
+                    "n_ref": 10602
+                },
+                "4": {
+                    "Dice": 0.8169014084507042,
+                    "FN": 37,
+                    "FP": 15,
+                    "IoU": 0.6904761904761905,
+                    "TN": 2293592,
+                    "TP": 116,
+                    "n_pred": 131,
+                    "n_ref": 153
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50826500.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50826500.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9246575342465754,
+                    "FN": 48,
+                    "FP": 18,
+                    "IoU": 0.8598726114649682,
+                    "TN": 2620969,
+                    "TP": 405,
+                    "n_pred": 423,
+                    "n_ref": 453
+                },
+                "2": {
+                    "Dice": 0.7859007832898173,
+                    "FN": 109,
+                    "FP": 55,
+                    "IoU": 0.6473118279569893,
+                    "TN": 2620975,
+                    "TP": 301,
+                    "n_pred": 356,
+                    "n_ref": 410
+                },
+                "3": {
+                    "Dice": 0.8916197303294078,
+                    "FN": 739,
+                    "FP": 1166,
+                    "IoU": 0.8044348629504158,
+                    "TN": 2611699,
+                    "TP": 7836,
+                    "n_pred": 9002,
+                    "n_ref": 8575
+                },
+                "4": {
+                    "Dice": 0.920892494929006,
+                    "FN": 27,
+                    "FP": 12,
+                    "IoU": 0.8533834586466166,
+                    "TN": 2621174,
+                    "TP": 227,
+                    "n_pred": 239,
+                    "n_ref": 254
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50885244.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50885244.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9378531073446328,
+                    "FN": 6,
+                    "FP": 16,
+                    "IoU": 0.8829787234042553,
+                    "TN": 2293572,
+                    "TP": 166,
+                    "n_pred": 182,
+                    "n_ref": 172
+                },
+                "2": {
+                    "Dice": 0.7622841965471447,
+                    "FN": 71,
+                    "FP": 287,
+                    "IoU": 0.6158798283261803,
+                    "TN": 2292828,
+                    "TP": 574,
+                    "n_pred": 861,
+                    "n_ref": 645
+                },
+                "3": {
+                    "Dice": 0.8701868693724266,
+                    "FN": 1720,
+                    "FP": 1149,
+                    "IoU": 0.7702042450941129,
+                    "TN": 2281275,
+                    "TP": 9616,
+                    "n_pred": 10765,
+                    "n_ref": 11336
+                },
+                "4": {
+                    "Dice": 0.8174603174603174,
+                    "FN": 5,
+                    "FP": 41,
+                    "IoU": 0.6912751677852349,
+                    "TN": 2293611,
+                    "TP": 103,
+                    "n_pred": 144,
+                    "n_ref": 108
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50896725.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50896725.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8548707753479126,
+                    "FN": 23,
+                    "FP": 50,
+                    "IoU": 0.7465277777777778,
+                    "TN": 1834720,
+                    "TP": 215,
+                    "n_pred": 265,
+                    "n_ref": 238
+                },
+                "2": {
+                    "Dice": 0.2608695652173913,
+                    "FN": 51,
+                    "FP": 0,
+                    "IoU": 0.15,
+                    "TN": 1834948,
+                    "TP": 9,
+                    "n_pred": 9,
+                    "n_ref": 60
+                },
+                "3": {
+                    "Dice": 0.8206264775413712,
+                    "FN": 528,
+                    "FP": 1900,
+                    "IoU": 0.6958155850663994,
+                    "TN": 1827026,
+                    "TP": 5554,
+                    "n_pred": 7454,
+                    "n_ref": 6082
+                },
+                "4": {
+                    "Dice": 0.8156424581005587,
+                    "FN": 19,
+                    "FP": 14,
+                    "IoU": 0.6886792452830188,
+                    "TN": 1834902,
+                    "TP": 73,
+                    "n_pred": 87,
+                    "n_ref": 92
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/50958452.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/50958452.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8716417910447761,
+                    "FN": 33,
+                    "FP": 10,
+                    "IoU": 0.7724867724867724,
+                    "TN": 2293571,
+                    "TP": 146,
+                    "n_pred": 156,
+                    "n_ref": 179
+                },
+                "2": {
+                    "Dice": 0.7642782969885774,
+                    "FN": 72,
+                    "FP": 155,
+                    "IoU": 0.6184873949579832,
+                    "TN": 2293165,
+                    "TP": 368,
+                    "n_pred": 523,
+                    "n_ref": 440
+                },
+                "3": {
+                    "Dice": 0.9403429953777701,
+                    "FN": 668,
+                    "FP": 713,
+                    "IoU": 0.8874031797798614,
+                    "TN": 2281495,
+                    "TP": 10884,
+                    "n_pred": 11597,
+                    "n_ref": 11552
+                },
+                "4": {
+                    "Dice": 0.8831168831168831,
+                    "FN": 17,
+                    "FP": 10,
+                    "IoU": 0.7906976744186046,
+                    "TN": 2293631,
+                    "TP": 102,
+                    "n_pred": 112,
+                    "n_ref": 119
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51036874.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51036874.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7621399176954733,
+                    "FN": 138,
+                    "FP": 151,
+                    "IoU": 0.6156914893617021,
+                    "TN": 10485008,
+                    "TP": 463,
+                    "n_pred": 614,
+                    "n_ref": 601
+                },
+                "2": {
+                    "Dice": 0.5254957507082153,
+                    "FN": 646,
+                    "FP": 24,
+                    "IoU": 0.356388088376561,
+                    "TN": 10484719,
+                    "TP": 371,
+                    "n_pred": 395,
+                    "n_ref": 1017
+                },
+                "3": {
+                    "Dice": 0.9183136568330977,
+                    "FN": 2613,
+                    "FP": 6112,
+                    "IoU": 0.8489648248165074,
+                    "TN": 10427992,
+                    "TP": 49043,
+                    "n_pred": 55155,
+                    "n_ref": 51656
+                },
+                "4": {
+                    "Dice": 0.750561797752809,
+                    "FN": 164,
+                    "FP": 58,
+                    "IoU": 0.6007194244604317,
+                    "TN": 10485204,
+                    "TP": 334,
+                    "n_pred": 392,
+                    "n_ref": 498
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51061382.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51061382.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9271948608137045,
+                    "FN": 141,
+                    "FP": 131,
+                    "IoU": 0.8642714570858283,
+                    "TN": 10483756,
+                    "TP": 1732,
+                    "n_pred": 1863,
+                    "n_ref": 1873
+                },
+                "2": {
+                    "Dice": 0.5589155370177268,
+                    "FN": 412,
+                    "FP": 11,
+                    "IoU": 0.3878437047756874,
+                    "TN": 10485069,
+                    "TP": 268,
+                    "n_pred": 279,
+                    "n_ref": 680
+                },
+                "3": {
+                    "Dice": 0.8748466521748488,
+                    "FN": 17496,
+                    "FP": 5764,
+                    "IoU": 0.7775354833773289,
+                    "TN": 10381204,
+                    "TP": 81296,
+                    "n_pred": 87060,
+                    "n_ref": 98792
+                },
+                "4": {
+                    "Dice": 0.8737864077669902,
+                    "FN": 118,
+                    "FP": 12,
+                    "IoU": 0.7758620689655172,
+                    "TN": 10485180,
+                    "TP": 450,
+                    "n_pred": 462,
+                    "n_ref": 568
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51112280.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51112280.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7909698996655519,
+                    "FN": 171,
+                    "FP": 79,
+                    "IoU": 0.6542185338865837,
+                    "TN": 10485037,
+                    "TP": 473,
+                    "n_pred": 552,
+                    "n_ref": 644
+                },
+                "2": {
+                    "Dice": 0.5142314990512334,
+                    "FN": 1000,
+                    "FP": 24,
+                    "IoU": 0.34610472541507026,
+                    "TN": 10484194,
+                    "TP": 542,
+                    "n_pred": 566,
+                    "n_ref": 1542
+                },
+                "3": {
+                    "Dice": 0.9318160586669157,
+                    "FN": 6139,
+                    "FP": 5539,
+                    "IoU": 0.8723367040174911,
+                    "TN": 10394285,
+                    "TP": 79797,
+                    "n_pred": 85336,
+                    "n_ref": 85936
+                },
+                "4": {
+                    "Dice": 0.7972508591065293,
+                    "FN": 204,
+                    "FP": 32,
+                    "IoU": 0.6628571428571428,
+                    "TN": 10485060,
+                    "TP": 464,
+                    "n_pred": 496,
+                    "n_ref": 668
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51223779.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51223779.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9182676652556171,
+                    "FN": 137,
+                    "FP": 114,
+                    "IoU": 0.8488862131246238,
+                    "TN": 10484099,
+                    "TP": 1410,
+                    "n_pred": 1524,
+                    "n_ref": 1547
+                },
+                "2": {
+                    "Dice": 0.7505211952744962,
+                    "FN": 649,
+                    "FP": 69,
+                    "IoU": 0.6006674082313682,
+                    "TN": 10483962,
+                    "TP": 1080,
+                    "n_pred": 1149,
+                    "n_ref": 1729
+                },
+                "3": {
+                    "Dice": 0.9274570307994001,
+                    "FN": 3770,
+                    "FP": 6292,
+                    "IoU": 0.8647271553984109,
+                    "TN": 10411377,
+                    "TP": 64321,
+                    "n_pred": 70613,
+                    "n_ref": 68091
+                },
+                "4": {
+                    "Dice": 0.5803108808290155,
+                    "FN": 74,
+                    "FP": 7,
+                    "IoU": 0.40875912408759124,
+                    "TN": 10485623,
+                    "TP": 56,
+                    "n_pred": 63,
+                    "n_ref": 130
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51228084.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51228084.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.052980132450331126,
+                    "FN": 112,
+                    "FP": 31,
+                    "IoU": 0.027210884353741496,
+                    "TN": 2621293,
+                    "TP": 4,
+                    "n_pred": 35,
+                    "n_ref": 116
+                },
+                "2": {
+                    "Dice": 0.5125,
+                    "FN": 212,
+                    "FP": 22,
+                    "IoU": 0.3445378151260504,
+                    "TN": 2621083,
+                    "TP": 123,
+                    "n_pred": 145,
+                    "n_ref": 335
+                },
+                "3": {
+                    "Dice": 0.8074763479732329,
+                    "FN": 671,
+                    "FP": 1832,
+                    "IoU": 0.6771155830753354,
+                    "TN": 2613688,
+                    "TP": 5249,
+                    "n_pred": 7081,
+                    "n_ref": 5920
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 13,
+                    "IoU": 0.0,
+                    "TN": 2621427,
+                    "TP": 0,
+                    "n_pred": 13,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51317720.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51317720.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.883495145631068,
+                    "FN": 46,
+                    "FP": 2,
+                    "IoU": 0.7913043478260869,
+                    "TN": 2227994,
+                    "TP": 182,
+                    "n_pred": 184,
+                    "n_ref": 228
+                },
+                "2": {
+                    "Dice": 0.06741573033707865,
+                    "FN": 76,
+                    "FP": 7,
+                    "IoU": 0.03488372093023256,
+                    "TN": 2228138,
+                    "TP": 3,
+                    "n_pred": 10,
+                    "n_ref": 79
+                },
+                "3": {
+                    "Dice": 0.907220793661825,
+                    "FN": 501,
+                    "FP": 834,
+                    "IoU": 0.8301958789112185,
+                    "TN": 2220362,
+                    "TP": 6527,
+                    "n_pred": 7361,
+                    "n_ref": 7028
+                },
+                "4": {
+                    "Dice": 0.8125,
+                    "FN": 35,
+                    "FP": 7,
+                    "IoU": 0.6842105263157895,
+                    "TN": 2228091,
+                    "TP": 91,
+                    "n_pred": 98,
+                    "n_ref": 126
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51340636.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51340636.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5981308411214953,
+                    "FN": 42,
+                    "FP": 1,
+                    "IoU": 0.4266666666666667,
+                    "TN": 2162613,
+                    "TP": 32,
+                    "n_pred": 33,
+                    "n_ref": 74
+                },
+                "2": {
+                    "Dice": 0.24390243902439024,
+                    "FN": 121,
+                    "FP": 3,
+                    "IoU": 0.1388888888888889,
+                    "TN": 2162544,
+                    "TP": 20,
+                    "n_pred": 23,
+                    "n_ref": 141
+                },
+                "3": {
+                    "Dice": 0.91911213097392,
+                    "FN": 472,
+                    "FP": 1361,
+                    "IoU": 0.8503306932309953,
+                    "TN": 2150441,
+                    "TP": 10414,
+                    "n_pred": 11775,
+                    "n_ref": 10886
+                },
+                "4": {
+                    "Dice": 0.5853658536585366,
+                    "FN": 16,
+                    "FP": 1,
+                    "IoU": 0.41379310344827586,
+                    "TN": 2162659,
+                    "TP": 12,
+                    "n_pred": 13,
+                    "n_ref": 28
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51449209.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51449209.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9090909090909091,
+                    "FN": 62,
+                    "FP": 18,
+                    "IoU": 0.8333333333333334,
+                    "TN": 2620960,
+                    "TP": 400,
+                    "n_pred": 418,
+                    "n_ref": 462
+                },
+                "2": {
+                    "Dice": 0.8929663608562691,
+                    "FN": 55,
+                    "FP": 15,
+                    "IoU": 0.8066298342541437,
+                    "TN": 2621078,
+                    "TP": 292,
+                    "n_pred": 307,
+                    "n_ref": 347
+                },
+                "3": {
+                    "Dice": 0.9137072503419973,
+                    "FN": 764,
+                    "FP": 813,
+                    "IoU": 0.8411243199677614,
+                    "TN": 2611514,
+                    "TP": 8349,
+                    "n_pred": 9162,
+                    "n_ref": 9113
+                },
+                "4": {
+                    "Dice": 0.9588235294117647,
+                    "FN": 26,
+                    "FP": 2,
+                    "IoU": 0.9209039548022598,
+                    "TN": 2621086,
+                    "TP": 326,
+                    "n_pred": 328,
+                    "n_ref": 352
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51589981.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51589981.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9442622950819672,
+                    "FN": 21,
+                    "FP": 13,
+                    "IoU": 0.8944099378881988,
+                    "TN": 2293438,
+                    "TP": 288,
+                    "n_pred": 301,
+                    "n_ref": 309
+                },
+                "2": {
+                    "Dice": 0.8466898954703833,
+                    "FN": 25,
+                    "FP": 63,
+                    "IoU": 0.7341389728096677,
+                    "TN": 2293429,
+                    "TP": 243,
+                    "n_pred": 306,
+                    "n_ref": 268
+                },
+                "3": {
+                    "Dice": 0.9442423000051248,
+                    "FN": 1329,
+                    "FP": 847,
+                    "IoU": 0.8943740595116741,
+                    "TN": 2273159,
+                    "TP": 18425,
+                    "n_pred": 19272,
+                    "n_ref": 19754
+                },
+                "4": {
+                    "Dice": 0.9453681710213777,
+                    "FN": 7,
+                    "FP": 16,
+                    "IoU": 0.8963963963963963,
+                    "TN": 2293538,
+                    "TP": 199,
+                    "n_pred": 215,
+                    "n_ref": 206
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51679233.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51679233.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9032258064516129,
+                    "FN": 15,
+                    "FP": 27,
+                    "IoU": 0.8235294117647058,
+                    "TN": 2293522,
+                    "TP": 196,
+                    "n_pred": 223,
+                    "n_ref": 211
+                },
+                "2": {
+                    "Dice": 0.673202614379085,
+                    "FN": 94,
+                    "FP": 6,
+                    "IoU": 0.5073891625615764,
+                    "TN": 2293557,
+                    "TP": 103,
+                    "n_pred": 109,
+                    "n_ref": 197
+                },
+                "3": {
+                    "Dice": 0.9312908861891024,
+                    "FN": 967,
+                    "FP": 724,
+                    "IoU": 0.8714166223100905,
+                    "TN": 2280609,
+                    "TP": 11460,
+                    "n_pred": 12184,
+                    "n_ref": 12427
+                },
+                "4": {
+                    "Dice": 0.8888888888888888,
+                    "FN": 26,
+                    "FP": 10,
+                    "IoU": 0.8,
+                    "TN": 2293580,
+                    "TP": 144,
+                    "n_pred": 154,
+                    "n_ref": 170
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51690780.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51690780.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7829727843684577,
+                    "FN": 218,
+                    "FP": 93,
+                    "IoU": 0.643348623853211,
+                    "TN": 2292888,
+                    "TP": 561,
+                    "n_pred": 654,
+                    "n_ref": 779
+                },
+                "2": {
+                    "Dice": 0.6306434411660149,
+                    "FN": 883,
+                    "FP": 156,
+                    "IoU": 0.46053997923156803,
+                    "TN": 2291834,
+                    "TP": 887,
+                    "n_pred": 1043,
+                    "n_ref": 1770
+                },
+                "3": {
+                    "Dice": 0.8644482045497274,
+                    "FN": 1252,
+                    "FP": 2353,
+                    "IoU": 0.7612582781456954,
+                    "TN": 2278660,
+                    "TP": 11495,
+                    "n_pred": 13848,
+                    "n_ref": 12747
+                },
+                "4": {
+                    "Dice": 0.5471698113207547,
+                    "FN": 191,
+                    "FP": 49,
+                    "IoU": 0.37662337662337664,
+                    "TN": 2293375,
+                    "TP": 145,
+                    "n_pred": 194,
+                    "n_ref": 336
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51728337.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51728337.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9430740037950665,
+                    "FN": 306,
+                    "FP": 234,
+                    "IoU": 0.8922800718132855,
+                    "TN": 12577899,
+                    "TP": 4473,
+                    "n_pred": 4707,
+                    "n_ref": 4779
+                },
+                "2": {
+                    "Dice": 0.6947266569908079,
+                    "FN": 614,
+                    "FP": 17,
+                    "IoU": 0.5322461082283173,
+                    "TN": 12581563,
+                    "TP": 718,
+                    "n_pred": 735,
+                    "n_ref": 1332
+                },
+                "3": {
+                    "Dice": 0.8995084028809878,
+                    "FN": 2766,
+                    "FP": 8661,
+                    "IoU": 0.8173696239351755,
+                    "TN": 12520343,
+                    "TP": 51142,
+                    "n_pred": 59803,
+                    "n_ref": 53908
+                },
+                "4": {
+                    "Dice": 0.8943506969919296,
+                    "FN": 161,
+                    "FP": 127,
+                    "IoU": 0.8088918380889184,
+                    "TN": 12581405,
+                    "TP": 1219,
+                    "n_pred": 1346,
+                    "n_ref": 1380
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/51848457.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/51848457.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8291316526610645,
+                    "FN": 41,
+                    "FP": 20,
+                    "IoU": 0.7081339712918661,
+                    "TN": 2621231,
+                    "TP": 148,
+                    "n_pred": 168,
+                    "n_ref": 189
+                },
+                "2": {
+                    "Dice": 0.6407119021134594,
+                    "FN": 583,
+                    "FP": 63,
+                    "IoU": 0.4713584288052373,
+                    "TN": 2620218,
+                    "TP": 576,
+                    "n_pred": 639,
+                    "n_ref": 1159
+                },
+                "3": {
+                    "Dice": 0.9364713241330779,
+                    "FN": 1579,
+                    "FP": 1671,
+                    "IoU": 0.8805322746654903,
+                    "TN": 2594236,
+                    "TP": 23954,
+                    "n_pred": 25625,
+                    "n_ref": 25533
+                },
+                "4": {
+                    "Dice": 0.7254901960784313,
+                    "FN": 53,
+                    "FP": 3,
+                    "IoU": 0.5692307692307692,
+                    "TN": 2621310,
+                    "TP": 74,
+                    "n_pred": 77,
+                    "n_ref": 127
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/52912856.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/52912856.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8685215493726132,
+                    "FN": 173,
+                    "FP": 68,
+                    "IoU": 0.7675988428158148,
+                    "TN": 10484723,
+                    "TP": 796,
+                    "n_pred": 864,
+                    "n_ref": 969
+                },
+                "2": {
+                    "Dice": 0.6894930198383542,
+                    "FN": 1866,
+                    "FP": 247,
+                    "IoU": 0.5261269342901996,
+                    "TN": 10481301,
+                    "TP": 2346,
+                    "n_pred": 2593,
+                    "n_ref": 4212
+                },
+                "3": {
+                    "Dice": 0.9441259039898067,
+                    "FN": 2937,
+                    "FP": 5044,
+                    "IoU": 0.8941652300755868,
+                    "TN": 10410350,
+                    "TP": 67429,
+                    "n_pred": 72473,
+                    "n_ref": 70366
+                },
+                "4": {
+                    "Dice": 0.4846938775510204,
+                    "FN": 56,
+                    "FP": 348,
+                    "IoU": 0.31986531986531985,
+                    "TN": 10485166,
+                    "TP": 190,
+                    "n_pred": 538,
+                    "n_ref": 246
+                }
+            },
+            "prediction_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_results/Dataset025_Abdominal_all_merged_zscore/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_4/validation/52921829.nii.gz",
+            "reference_file": "/workspace/nas203/forGPU/hyena/01_duct_seg_nnunet/nnUnet_preprocessed/Dataset025_Abdominal_all_merged_zscore/gt_segmentations/52921829.nii.gz"
+        }
+    ]
+}

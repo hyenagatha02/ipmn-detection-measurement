@@ -1,0 +1,19 @@
+root@73763aca7c66:/workspace/nas203/forGPU/hyena/MI2RL/01_duct_seg_nnunet/codes/ALL_AT_ONCE/model/nnUNet-master# cd /workspace/nas203/forGPU/hyena/MI2RL/01_duct_seg_nnunet/codes/ALL_AT_ONCE/model/nnUNet-master
+
+root@73763aca7c66:/workspace/nas203/forGPU/hyena/MI2RL/01_duct_seg_nnunet/codes/ALL_AT_ONCE/model/nnUNet-master# git remote get-url origin
+https://hyenagatha02@github.com/hyenagatha02/nnUNet.git
+
+root@73763aca7c66:/workspace/nas203/forGPU/hyena/MI2RL/01_duct_seg_nnunet/codes/ALL_AT_ONCE/model/nnUNet-master# git branch -vv
+* master ff2d9a1 [origin/master] fix: 01_duct_seg_nnunet | change origin to my forked repo | Customize nnUNet preprocessing/inference
+
+root@73763aca7c66:/workspace/nas203/forGPU/hyena/MI2RL/01_duct_seg_nnunet/codes/ALL_AT_ONCE/model/nnUNet-master# git remote set-url origin https://github.com/hyenagatha02/nnUNet.git
+
+
+
+
+# Check : https://github.com/MIC-DKFZ/nnUNet/compare/master...hyenagatha02:nnUNet:master
+
+> Showing 3 changed files with 285 additions and 341 deletions. (## added by hyena)
+> +34 −0     nnunetv2/inference/data_iterators.py
+> +120 −117  nnunetv2/inference/predict_from_raw_data.py
+> +131 −224  nnunetv2/preprocessing/preprocessors/default_preprocessor.py
