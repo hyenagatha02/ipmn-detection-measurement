@@ -34,7 +34,7 @@ __pycache__/
 model/dataset/inputImgs/dicom/*
 model/dataset/inputImgs/nifti/*
 model/dataset/outputImgs/*
-output/
+output/*
 
 # Keep folder structure
 !model/dataset/inputImgs/dicom/.gitkeep
