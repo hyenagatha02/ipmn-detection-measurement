@@ -36,9 +36,13 @@ model/dataset/inputImgs/nifti/*
 model/dataset/outputImgs/*
 output/*
 
-# Keep input folder structure
+# nnU-Net model weights
+model/nnUnet_results/*
+
+# Keep folder structure
 !model/dataset/inputImgs/dicom/.gitkeep
 !model/dataset/inputImgs/nifti/.gitkeep
+!model/nnUnet_results/.gitkeep
 
 # =========================
 # Python caches
