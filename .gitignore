@@ -31,17 +31,24 @@ __pycache__/
 # =========================
 # Example data (do not upload patient data)
 # =========================
+# input folders
 model/dataset/inputImgs/dicom/*
 model/dataset/inputImgs/nifti/*
+
+!model/dataset/inputImgs/dicom/.gitkeep
+!model/dataset/inputImgs/nifti/.gitkeep
+
+# output folders
 model/dataset/outputImgs/*
 output/*
 
-# nnU-Net model weights
+# nnU-Net directories
+model/nnUnet_raw/*
+model/nnUnet_preprocessed/*
 model/nnUnet_results/*
 
-# Keep folder structure
-!model/dataset/inputImgs/dicom/.gitkeep
-!model/dataset/inputImgs/nifti/.gitkeep
+!model/nnUnet_raw/.gitkeep
+!model/nnUnet_preprocessed/.gitkeep
 !model/nnUnet_results/.gitkeep
 
 # =========================
